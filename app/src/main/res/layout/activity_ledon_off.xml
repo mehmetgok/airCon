@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.homer.aircon.LEDOnOff">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Connect" />
+
+        <Button
+            android:id="@+id/btnDisconnect"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Disconnect" />
+
+        <TextView
+            android:id="@+id/txtArduino"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth" />
+
+        <Button
+            android:id="@+id/btnOn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Turn LED On" />
+
+        <Button
+            android:id="@+id/btnOff"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Turn LED Off" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
